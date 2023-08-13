@@ -1,5 +1,3 @@
 **/.vscode
 **/.ipynb_checkpoints/
 **/__pycache__/
-**/dockerfile
-**/docker-compose.yml
