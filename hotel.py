@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
-import requests
 import pickle
 from config import PAGE_CONFIG
-import json
-from sklearn.preprocessing import MinMaxScaler
 
 st.set_page_config(**PAGE_CONFIG)
 
