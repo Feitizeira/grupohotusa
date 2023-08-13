@@ -191,9 +191,9 @@ def main():
                     df_usuario = pd.DataFrame(data = [datos], columns = feature_names)
  
                     with open("data/escalador.sav", "rb") as file:
-                            scaler = pickle.load(file)
+                            x_scaler = pickle.load(file)
     
-                    df_usu = scaler.transform(df_usuario)
+                    df_usu = x_scaler.transform(df_usuario)
     
                     # st.dataframe(df_usu)
     
