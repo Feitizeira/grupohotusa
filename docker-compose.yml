@@ -1,13 +1,6 @@
 version: '3'
 
 services:
-  detection_app:
-    build: 
-      context: .
-    networks:
-      - my_network
-    ports:
-      - "8080:8080"
 
   streamlit_app:
     build:
