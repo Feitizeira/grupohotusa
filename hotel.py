@@ -46,10 +46,10 @@ def main():
                         LeadTime = st.number_input(label = "Días de antelación de la reserva", 
                                                     value = 2
                                 )
-                        BB = st.selectbox(label = "Tipo de alojamiento", 
+                        Meal = st.selectbox(label = "Tipo de alojamiento", 
                                         options = ["SC", "BB", "HB", "FB", "Undefined"]
                                 )   
-                        Group = st.selectbox(label= "Tipo de reserva",
+                        Client = st.selectbox(label= "Tipo de cliente",
                                         options = ["Group", "Contract", "Transient", "Transient-Party"]
                                 )
                         Mes_Estancia = st.slider(label= "Mes de la Estancia",
@@ -131,7 +131,7 @@ def main():
                          
                 if st.form_submit_button("Enviar"):
                     datos = [LeadTime, StaysInWeekendNights, StaysInWeekNights, Adults, Children, ADR, 
-                            Country, Company, ReservedRoomType, IsRepeatedGuest, Mes_Estancia, Mes_Reserva, Group, BB]
+                            Country, Company, ReservedRoomType, IsRepeatedGuest, Mes_Estancia, Mes_Reserva, Client, Meal]
 
                     for i in range(len(datos)):
                         if datos[i] == 'Si':
