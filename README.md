@@ -50,8 +50,11 @@ data\postresampling.png
 Accuracy del 96%. 
 Recall 88%. 
 Precision 97%. 
+
 ![Recall](data/val-recall.png)
+
 ![ClasificationReport](data/clasreportMLPb.png)
+
 Consigue un score de 0.9674 y un best_loss de 0.1099 y todo ello con muy poca ayuda, gracias a la calidad de los datos proporcionados. Estos valores asustan un poco porque se acerca a datos que sugieren overfitting. Sin embargo las estadísticas se mantienen bastante bien al probar el modelo con los datos de validación.
 
 
@@ -95,8 +98,8 @@ Para asegurar que el poryecto es reproducible, portable, consistente, etc... se 
          <td> MLP </td>
     </tr>
     <tr>
-        <td><img src="data/cm6.PNG" style="width: 400px;"></td>
-        <td><img src="data/cm7.PNG" style="width: 400px;"></td>
-        <td><img src="data/cm8.PNG" style="width: 400px;"></td>
+        <td><img src="data/cm6.png" style="width: 400px;"></td>
+        <td><img src="data/cm7.png" style="width: 400px;"></td>
+        <td><img src="data/cm8.png" style="width: 400px;"></td>
     </tr>
 </table>
