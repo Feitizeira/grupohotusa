@@ -170,7 +170,7 @@ def main():
                     nombres = dfo["Country"]
                     paises = pd.concat([nombres,numeros], axis=1)
                     codigo = paises[paises["Country"]==datos[6]]
-                    dfdata["Country"] = codigo.iloc[0][1]
+                    dfdata["Country"] = codigo.iloc[0, 1]
  
                     with open("data/escalador.sav", "rb") as file:
                             x_scaler = pickle.load(file)
